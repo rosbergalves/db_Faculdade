@@ -8,10 +8,6 @@ Objetivo do Banco de Dados: Realizar controle centralizado de alunos, professore
 
 Adicionei um arquivo PDF com os requisitos do banco de dados db_Faculdade.
 
-Banco de Dados para Gerenciamento de uma Faculdade.
-
-Objetivo do Banco de Dados: Realizar controle centralizado de alunos, professores, cursos, disciplinas, histórico e turmas. 
-
 # Fases do Projeto 
 
 • Levantamento de Requisitos.
