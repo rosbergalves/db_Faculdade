@@ -27,11 +27,17 @@ Fases do Projeto
 
 Regas de Negócio
 • Um aluno só pode estar matriculado em um curso por vez.
+
 • Alunos possuem um código de identificação (RA).
-• Cursos são compostos por disciplinas
+
+• Cursos são compostos por disciplinas.
+
 • Cada disciplina terá no máximo 30 alunos por turma.
+
 • As disciplinas podem ser obrigatórias ou optativas, dependendo do curso.
+
 • As disciplinas pertencem, a departamentos específicos.
+
 • Cada disciplinas possui um código de identificação.
 • Alunos podem trancar matrícula, não estando então matriculados em 
 nenhuma disciplina no semestre.
