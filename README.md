@@ -2,7 +2,7 @@
 
 Respositório para criação da base de dados db_Faculdade, meu primeiro projeto na área de dados.
 
-Projeto Prático Curso SQL Server - Bóson Treinamentos
+Projeto Prático Curso SQL Server - Bóson Treinamentos.
 
 Banco de Dados para Gerenciamento de uma Faculdade.
 
