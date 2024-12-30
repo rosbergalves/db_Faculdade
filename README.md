@@ -4,8 +4,6 @@ Respositório para criação da base de dados db_Faculdade, meu primeiro projeto
 
 Projeto Prático Curso SQL Server - Bóson Treinamentos.
 
-Banco de Dados para Gerenciamento de uma Faculdade.
-
 Objetivo do Banco de Dados: Realizar controle centralizado de alunos, professores, cursos, disciplinas, histórico e turmas.
 
 Adicionei um arquivo PDF com os requisitos do banco de dados db_Faculdade.
@@ -16,16 +14,24 @@ Objetivo do Banco de Dados:
 Realizar controle centralizado de alunos, professores, cursos, disciplinas, 
 histórico e turmas. 
 
-Fases do Projeto 
+# Fases do Projeto 
+
 • Levantamento de Requisitos.
+
 • Identificação de Entidades e Relacionamentos.
+
 • Modelo E-R.
+
 • Diagrama E-R.
+
 • Dicionário de Dados.
+
 • Normalização.
+
 • Testes Básicos.
 
-Regas de Negócio
+# Regas de Negócio
+
 • Um aluno só pode estar matriculado em um curso por vez.
 
 • Alunos possuem um código de identificação (RA).
