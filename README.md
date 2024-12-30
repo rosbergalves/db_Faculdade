@@ -42,5 +42,3 @@ Fases do Projeto
 •	Cada professor irá lecionar no máximo 4 disciplinas diferentes.
 •	Cada professor é vinculado a um departamento.
 •	Professores são identificados por um código de professor.
-
-
