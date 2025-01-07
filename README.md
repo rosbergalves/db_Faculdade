@@ -24,7 +24,7 @@ Adicionei um arquivo PDF com os requisitos do banco de dados db_Faculdade.
 
 • Testes Básicos.
 
-# Regas de Negócio
+# Regras de Negócio
 
 • Um aluno só pode estar matriculado em um curso por vez.
 
