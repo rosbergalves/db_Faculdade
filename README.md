@@ -2,9 +2,9 @@
 
 Meu primeiro projeto na área de dados.
 
-Projeto Prático Curso SQL Server - Bóson Treinamentos.
+Projeto Prático do Curso SQL Server - Bóson Treinamentos.
 
-Objetivo do Banco de Dados: Realizar controle centralizado de alunos, professores, cursos, disciplinas, histórico e turmas.
+**Objetivo do Banco de Dados:** Realizar controle centralizado de alunos, professores, cursos, disciplinas, histórico e turmas.
 
 Adicionei um arquivo PDF com os requisitos do banco de dados db_Faculdade.
 
@@ -24,7 +24,7 @@ Adicionei um arquivo PDF com os requisitos do banco de dados db_Faculdade.
 
 • Testes Básicos.
 
-# Regas de Negócio
+# Regras de Negócio
 
 • Um aluno só pode estar matriculado em um curso por vez.
 
