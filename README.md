@@ -1,10 +1,7 @@
-# Banco db_Faculdade
+# Banco de Dados - db_Faculdade
 
-Meu primeiro projeto na área de dados.
-
-Projeto Prático do Curso SQL Server - Bóson Treinamentos.
-
-**Objetivo do Banco de Dados:** Realizar controle centralizado de alunos, professores, cursos, disciplinas, histórico e turmas.
+# Objetivo do Banco de Dados
+O objetivo é criar um banco de dados para gerenciar informações acadêmicas de alunos, professores, cursos, disciplinas, departamentos históricos, turmas, endereços etc.
 
 
 # Fases do Projeto 
@@ -19,7 +16,9 @@ Projeto Prático do Curso SQL Server - Bóson Treinamentos.
 
 • Dicionário de Dados.
 
-• Normalização.
+• Normalização na 1ª, 2ª e 3ª formas normais.
+
+• Implementação do banco ‘db_Faculdade’.
 
 • Testes Básicos.
 
