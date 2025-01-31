@@ -62,7 +62,10 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 • Professores são identificados por um código de professor.
 
+# Dicionário de Dados
 
+
+## Entidade Aluno
 | Entidade | Atributo         | Tipo de Dados | Comprimento | Restrições         | Descrição                            |
 |----------|-----------------|--------------|-------------|--------------------|--------------------------------------|
 | Aluno    | RA              | Inteiro      | 6 bytes     | PK, NOT NULL       | Código de identificação do aluno    |
