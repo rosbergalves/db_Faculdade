@@ -64,13 +64,13 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 # Dicionário de Dados
 
-## Entidades
+### Entidades
 
 ### Entidade Aluno
 
 | Entidade | Relacionamento   | Nome do Relacionamento | Cardinalidade Miníma | Cardinalidade Máxima | Descrição                                            |
 |----------|------------------|------------------------|----------------------|----------------------|------------------------------------------------------|
-| Aluno	   | Curso	          | Está matriculado       | 1,1                  | 1,n                  | Tabela para cadastro de informações sobre os alunos  |
+| Aluno	   | Curso	          | Está matriculado       | 1,1                  | 1,n                  | Tabela para cadastro de informações sobre os alunos. |
 |          | Turma            | Pertence               | 1,1                  | 1,n	                 |                                                      |
 |          | Histórico        | Pertence               | 1,1                  | 1,1	                 |                                                      |
 |          | Endereco_Aluno   | Pertence               | 1,1                  | 1,n	                 |                                                      |
@@ -78,3 +78,11 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 |          | Telefone_Aluno   | Possui                 | 1,1                  | 0,n                  |                                                      |	
 |          | Aluno_Disciplina | Cursa                  | 1,1                  | 0,n	                 |                                                      |
 
+### Entidade 
+
+| Entidade | Relacionamento   | Nome do Relacionamento | Cardinalidade Miníma | Cardinalidade Máxima | Descrição                                                   |
+|----------|------------------|------------------------|----------------------|----------------------|-------------------------------------------------------------|
+| Curso	   | Aluno	          | Está matriculado       | 1,1                  | 0,n                  | Tabela para cadastro dos cursos oferecidos pela faculdade.  |
+|          | Turma            | Gera                   | 1,1                  | 0,n	                 |                                                             |
+|          | Departamento     | Controla               | 1,1                  | 1,1	                 |                                                             |
+|          | Curso_Disciplina | Possui                 | 1,1                  | 1,n	                 |                                                             |
