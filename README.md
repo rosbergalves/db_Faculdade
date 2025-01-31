@@ -1,6 +1,6 @@
 # Banco de Dados - db_Faculdade
 
-# Objetivo do Banco de Dados
+## Objetivo do Banco de Dados
 O objetivo é criar um banco de dados para gerenciar informações acadêmicas de alunos, professores, cursos, disciplinas, departamentos históricos, turmas, endereços etc.
 
 
@@ -66,11 +66,11 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 
 ## Entidade Aluno
-| Entidade | Atributo         | Tipo de Dados | Comprimento | Restrições         | Descrição                            |
-|----------|-----------------|--------------|-------------|--------------------|--------------------------------------|
-| Aluno    | RA              | Inteiro      | 6 bytes     | PK, NOT NULL       | Código de identificação do aluno    |
-|          | Nome_Aluno      | Caractere    | 20 bytes    | NOT NULL           | Nome do aluno                       |
-|          | Sobrenome_Aluno | Caractere    | 50 bytes    | NOT NULL           | Sobrenome do aluno                  |
+| Entidade | Atributo       | Tipo de Dados| Comprimento | Restrições         | Descrição                           |
+|----------|----------------|--------------|-------------|--------------------|-------------------------------------|
+| Aluno    | RA             | Inteiro      | 6 bytes     | PK, NOT NULL       | Código de identificação do aluno    |
+|          | Nome_Aluno     | Caractere    | 20 bytes    | NOT NULL           | Nome do aluno                       |
+|          | Sobrenome_Aluno| Caractere    | 50 bytes    | NOT NULL           | Sobrenome do aluno                  |
 |          | CPF            | Caractere    | 11 bytes    | NOT NULL, UNIQUE   | CPF do aluno                        |
 |          | Status         | Caractere    | 1 byte      | NOT NULL           | Status da matrícula do aluno        |
 |          | Nome_Mae       | Caractere    | 80 bytes    | NOT NULL           | Nome da mãe do aluno                |
