@@ -61,3 +61,19 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 • Cada professor é vinculado a um departamento.
 
 • Professores são identificados por um código de professor.
+
+
+| Entidade | Atributo         | Tipo de Dados | Comprimento | Restrições         | Descrição                            |
+|----------|-----------------|--------------|-------------|--------------------|--------------------------------------|
+| Aluno    | RA              | Inteiro      | 6 bytes     | PK, NOT NULL       | Código de identificação do aluno    |
+|          | Nome_Aluno      | Caractere    | 20 bytes    | NOT NULL           | Nome do aluno                       |
+|          | Sobrenome_Aluno | Caractere    | 50 bytes    | NOT NULL           | Sobrenome do aluno                  |
+|          | CPF            | Caractere    | 11 bytes    | NOT NULL, UNIQUE   | CPF do aluno                        |
+|          | Status         | Caractere    | 1 byte      | NOT NULL           | Status da matrícula do aluno        |
+|          | Nome_Mae       | Caractere    | 80 bytes    | NOT NULL           | Nome da mãe do aluno                |
+|          | Nome_Pai       | Caractere    | 80 bytes    | NULL               | Nome do pai do aluno                |
+|          | Sexo           | Caractere    | 1 byte      | NOT NULL           | Sexo do aluno                       |
+|          | Cod_Turma      | Inteiro      | 4 bytes     | FK, NOT NULL       | Código de identificação da turma    |
+|          | Cod_Curso      | Inteiro      | 4 bytes     | FK, NOT NULL       | Código de identificação do curso    |
+|          | E-mail         | Caractere    | 60 bytes    | NOT NULL           | E-mail do aluno                     |
+|          | Whatsapp       | Caractere    | 11 bytes    | NULL               | Whatsapp do aluno                   |
