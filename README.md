@@ -68,15 +68,15 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 ### Entidade Aluno
 
-| Entidade | Relacionamento   | Nome do Relacionamento | Cardinalidade Miníma | Cardinalidade Máxima | Descrição                                            |
-|----------|------------------|------------------------|----------------------|----------------------|------------------------------------------------------|
-| Aluno	   | Curso	          | Está matriculado       | 1,1                  | 1,n                  | Tabela para cadastro de informações sobre os alunos. |
-|          | Turma            | Pertence               | 1,1                  | 1,n	                 |                                                      |
-|          | Histórico        | Pertence               | 1,1                  | 1,1	                 |                                                      |
-|          | Endereco_Aluno   | Pertence               | 1,1                  | 1,n	                 |                                                      |
-|          | Aluno_Disciplina | Cursa                  | 1,1                  | 0,n                  |                                                      |	
-|          | Telefone_Aluno   | Possui                 | 1,1                  | 0,n                  |                                                      |	
-|          | Aluno_Disciplina | Cursa                  | 1,1                  | 0,n	                 |                                                      |
+| Entidade | Relacionamento   | Nome do Relacionamento | Cardinalidade Miníma | Cardinalidade Máxima | Descrição                                                   |
+|----------|------------------|------------------------|----------------------|----------------------|-------------------------------------------------------------|
+| Aluno	   | Curso	          | Está matriculado       | 1,1                  | 1,n                  | Tabela para cadastro de informações sobre os alunos.        |
+|          | Turma            | Pertence               | 1,1                  | 1,n	                 |                                                             |
+|          | Histórico        | Pertence               | 1,1                  | 1,1	                 |                                                             |
+|          | Endereco_Aluno   | Pertence               | 1,1                  | 1,n	                 |                                                             |
+|          | Aluno_Disciplina | Cursa                  | 1,1                  | 0,n                  |                                                             |	
+|          | Telefone_Aluno   | Possui                 | 1,1                  | 0,n                  |                                                             |	
+|          | Aluno_Disciplina | Cursa                  | 1,1                  | 0,n	                 |                                                             |
 
 ### Entidade 
 
