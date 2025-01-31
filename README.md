@@ -64,8 +64,9 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 # Dicionário de Dados
 
+## Entidades
 
-## Entidade Aluno
+### Entidade Aluno
 
 | Entidade | Relacionamento   | Nome do Relacionamento | Cardinalidade Miníma | Cardinalidade Máxima | Descrição                                            |
 |----------|------------------|------------------------|----------------------|----------------------|------------------------------------------------------|
