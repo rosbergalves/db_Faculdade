@@ -70,6 +70,10 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 ![Modelo Conceitual](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloConceitual.png)
 
+### Modelo Lógico
+
+![Modelo Lógico](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloL%C3%B3gico.png)
+
 # Dicionário de Dados
 
 <span style="font-size: 12px;">[Download do dicionário de dados completo](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Dicion%C3%A1rio%20de%20Dados%20db_Faculdade.xlsx)</span>
