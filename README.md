@@ -136,6 +136,8 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 ![Entidade Tipo_Telefone](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Entidades/entidate_tbl_tipo_telefone.png)
 
+#
+
 ## Atributos
 
 ### Atributos Entidade Aluno
