@@ -64,7 +64,7 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 # Dicionário de Dados
 
-### Entidades
+## Entidades
 
 ### Entidade Aluno
 
