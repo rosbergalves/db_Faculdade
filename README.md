@@ -62,7 +62,13 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 • Professores são identificados por um código de professor.
 
-# 
+# Modelagem
+
+## Diagrama Entidade Relacionamento
+
+### Modelo Conceitual
+
+
 
 # Dicionário de Dados
 
