@@ -66,7 +66,7 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 # Dicionário de Dados
 
-<span style="font-size: 12px;">[Clique aqui para downloada do dicionário de dados completo](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Dicion%C3%A1rio%20de%20Dados%20db_Faculdade.xlsx)</span>
+<span style="font-size: 12px;">[Download do dicionário de dados completo](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Dicion%C3%A1rio%20de%20Dados%20db_Faculdade.xlsx)</span>
 
 ## Entidades
 
