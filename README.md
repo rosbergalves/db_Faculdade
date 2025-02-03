@@ -136,71 +136,71 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 ## Atributos
 
-### Atributos Aluno
+### Atributos Entidade Aluno
 
 ![Atributos Aluno](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_aluno.png)
 
-### Atributos Curso
+### Atributos Entidade Curso
 
 ![Atributos Curso](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_curso.png)
 
-### Atributos Turma
+### Atributos Entidade Turma
 
 ![Atributos Turma](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_turma.png)
 
-### Atributos Disciplina
+### Atributos Entidade Disciplina
 
 ![Atributos Disciplina](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_disciplina.png)
 
-### Atributos Professor
+### Atributos Entidade Professor
 
 ![Atributos Professor](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_professor.png)
 
-### Atributos Departamento
+### Atributos Entidade Departamento
 
 ![Atributos Departamento](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_departamento.png)
 
-### Atributos Histórico
+### Atributos Entidade Histórico
 
 ![Atributos Histórico](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_hist%C3%B3rico.png)
 
-### Atributos Aluno_Disciplina
+### Atributos Entidade Aluno_Disciplina
 
 ![Atributos Aluno_Disciplina](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_aluno_disciplina.png)
 
-### Atributos Professor_Disciplina
+### Atributos Entidade Professor_Disciplina
 
 ![Atributos Professor_Disciplina](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_professor_disciplina.png)
 
-### Atributos Curso_Disciplina
+### Atributos Entidade Curso_Disciplina
 
 ![Atributos Curso_Disciplina](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_curso_disciplina.png)
 
-### Atributos Disciplina_Histórico
+### Atributos Entidade Disciplina_Histórico
 
 ![Atributos Disciplina_Histórico](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_disciplina_hist%C3%B3rico.png)
 
-### Atributos Endereco_Aluno
+### Atributos Entidade Endereco_Aluno
 
 ![Atributos Endereco_Aluno](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_endere%C3%A7o_aluno.png)
 
-### Atributos Cidade
+### Atributos Entidade Cidade
 
 ![Atributos Cidade](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_cidade.png)
 
-### Atributos UF
+### Atributos Entidade UF
 
 ![Atributos UF](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_uf.png)
 
-### Atributos Tipo_Logradouro
+### Atributos Entidade Tipo_Logradouro
 
 ![Atributos Tipo_Logradouro](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_tipo_logradouro.png)
 
-### Atributos Telefone_Aluno
+### Atributos Entidade Telefone_Aluno
 
 ![Atributos Telefone_Aluno](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_telefone_aluno.png)
 
-### Atributos Tipo_Telefone
+### Atributos Entidade Tipo_Telefone
 
 ![Atributos Tipo_Telefone](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_tipo_telefone.png)
 
