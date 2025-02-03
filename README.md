@@ -68,7 +68,7 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 ### Modelo Conceitual
 
-
+![Modelo Conceitual](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloConceitual.png)
 
 # Dicionário de Dados
 
