@@ -70,11 +70,11 @@ O objetivo é criar um banco de dados para gerenciar informações acadêmicas d
 
 ![Entidade Aluno](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Entidades/entidate_tbl_aluno.png)
 
+### Entidade Aluno_Disciplina
+
+![Entidade Aluno_Disciplina](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Entidades/entidate_tbl_aluno_disciplina.png)
+
 ### Entidade 
 
-| Entidade | Relacionamento   | Nome do Relacionamento | Cardinalidade Miníma | Cardinalidade Máxima | Descrição                                                   |
-|----------|------------------|------------------------|----------------------|----------------------|-------------------------------------------------------------|
-| Curso	   | Aluno	          | Está matriculado       | 1,1                  | 0,n                  | Tabela para cadastro dos cursos oferecidos pela faculdade.  |
-|          | Turma            | Gera                   | 1,1                  | 0,n	                 |                                                             |
-|          | Departamento     | Controla               | 1,1                  | 1,1	                 |                                                             |
-|          | Curso_Disciplina | Possui                 | 1,1                  | 1,n	                 |                                                             |
+![Entidade @@@@@@](https://##################)
+
