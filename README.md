@@ -107,7 +107,7 @@ A modelagem lógica seguiu as melhores práticas de banco de dados, garantindo:
 
 • Eliminação de redundâncias, aplicando a normalização até a Terceira Forma Normal (3FN) para garantir a eficiência no armazenamento e minimizar inconsistências.
 
-• Relacionamentos N:N (Muitos para Muitos) representados por tabelas associativas, como:
+* Relacionamentos N:N (Muitos para Muitos) representados por tabelas associativas, como:
 
     * Aluno_Disciplina: Relaciona os alunos às disciplinas cursadas.
     * Professor_Disciplina: Relaciona os professores às disciplinas que lecionam.
