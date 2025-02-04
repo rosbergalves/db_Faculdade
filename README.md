@@ -6,72 +6,72 @@ Este banco de dados foi desenvolvido com o propósito de fornecer uma base estru
 
 Para garantir a integridade referencial e eficiência da modelagem, o banco de dados foi projetado seguindo os princípios das 1ª, 2ª e 3ª formas normais:
 
-• Primeira Forma Normal (1FN): Cada tabela contém apenas valores atômicos, sem grupos repetitivos ou colunas multivaloradas, garantindo que todos os atributos sejam indivisíveis.
+* Primeira Forma Normal (1FN): Cada tabela contém apenas valores atômicos, sem grupos repetitivos ou colunas multivaloradas, garantindo que todos os atributos sejam indivisíveis.
 
-• Segunda Forma Normal (2FN): Todas as tabelas atendem à 1FN e não possuem dependências parciais, ou seja, todos os atributos não-chave dependem totalmente da chave primária.
+* Segunda Forma Normal (2FN): Todas as tabelas atendem à 1FN e não possuem dependências parciais, ou seja, todos os atributos não-chave dependem totalmente da chave primária.
 
-• Terceira Forma Normal (3FN): Além de atender à 2FN, eliminamos dependências transitivas, garantindo que os atributos não-chave dependam apenas da chave primária e não de outros atributos não-chave.
+* Terceira Forma Normal (3FN): Além de atender à 2FN, eliminamos dependências transitivas, garantindo que os atributos não-chave dependam apenas da chave primária e não de outros atributos não-chave.
 
 Essas normalizações contribuem para a eliminação de redundâncias e a melhoria do desempenho do banco, garantindo maior confiabilidade nos testes e inserções de dados. Dessa forma, este banco de dados será capaz de gerenciar informações acadêmicas de alunos, professores, cursos, disciplinas, departamentos históricos, turmas, endereços etc.
 
 
 # Fases do Projeto 
 
-• Levantamento de Requisitos.
+* Levantamento de Requisitos.
 
-• Identificação de Entidades e Relacionamentos.
+* Identificação de Entidades e Relacionamentos.
 
-• Modelo E-R.
+* Modelo E-R.
 
-• Diagrama E-R.
+* Diagrama E-R.
 
-• Dicionário de Dados.
+* Dicionário de Dados.
 
-• Normalização na 1ª, 2ª e 3ª formas normais.
+* Normalização na 1ª, 2ª e 3ª formas normais.
 
-• Implementação do banco ‘db_Faculdade’.
+* Implementação do banco ‘db_Faculdade’.
 
-• Testes Básicos.
+* Testes Básicos.
 
 # Regras de Negócio
 
-• Um aluno só pode estar matriculado em um curso por vez.
+* Um aluno só pode estar matriculado em um curso por vez.
 
-• Alunos possuem um código de identificação (RA).
+* Alunos possuem um código de identificação (RA).
 
-• Cursos são compostos por disciplinas.
+* Cursos são compostos por disciplinas.
 
-• Cada disciplina terá no máximo 30 alunos por turma.
+* Cada disciplina terá no máximo 30 alunos por turma.
 
-• As disciplinas podem ser obrigatórias ou optativas, dependendo do curso.
+* As disciplinas podem ser obrigatórias ou optativas, dependendo do curso.
 
-• As disciplinas pertencem, a departamentos específicos.
+* As disciplinas pertencem, a departamentos específicos.
 
-• Cada disciplinas possui um código de identificação.
+* Cada disciplinas possui um código de identificação.
 
-• Alunos podem trancar matrícula, não estando então matriculados em nenhuma disciplina no semestre.
+* Alunos podem trancar matrícula, não estando então matriculados em nenhuma disciplina no semestre.
 
-• Em cada semestre, cada aluno pode se matricular em no máximo 9 disciplinas.
+* Em cada semestre, cada aluno pode se matricular em no máximo 9 disciplinas.
 
-• O aluno só pode ser reprovado no máximo 3 vezes na mesma disciplina.
+* O aluno só pode ser reprovado no máximo 3 vezes na mesma disciplina.
 
-• A faculdade terá no máximo 3.000 alunos matriculados simultaneamente, em 10 cursos distintos.
+* A faculdade terá no máximo 3.000 alunos matriculados simultaneamente, em 10 cursos distintos.
 
-• Entram 300 alunos novos por ano.
+* Entram 300 alunos novos por ano.
 
-• Existem 90 disciplinas no total disponíveis.
+* Existem 90 disciplinas no total disponíveis.
 
-• Um histórico traz todas as disciplinas cursadas por um aluno, incluindo nota final, frequência e período do curso realizado.
+* Um histórico traz todas as disciplinas cursadas por um aluno, incluindo nota final, frequência e período do curso realizado.
 
-• Professores podem ser cadastrados mesmo sem lecionar disciplinas.
+* Professores podem ser cadastrados mesmo sem lecionar disciplinas.
 
-• Existem 40 professores trabalhando na faculdade.
+* Existem 40 professores trabalhando na faculdade.
 
-• Cada professor irá lecionar no máximo 4 disciplinas diferentes.
+* Cada professor irá lecionar no máximo 4 disciplinas diferentes.
 
-• Cada professor é vinculado a um departamento.
+* Cada professor é vinculado a um departamento.
 
-• Professores são identificados por um código de professor.
+* Professores são identificados por um código de professor.
 
 # Modelagem
 
@@ -84,15 +84,15 @@ O diagrama conceitual representa uma visão de alto nível da estrutura do banco
 
 O banco de dados foi modelado para armazenar e gerenciar informações acadêmicas de uma faculdade, abrangendo o cadastro de alunos, professores, cursos, disciplinas, turmas, departamentos e histórico escolar. Entre as principais entidades do modelo conceitual, destacam-se:
 
-• Aluno: Representa os estudantes matriculados na instituição. Cada aluno pode estar vinculado a uma turma e a um curso.
+* Aluno: Representa os estudantes matriculados na instituição. Cada aluno pode estar vinculado a uma turma e a um curso.
 
-• Curso: Contém os cursos oferecidos pela faculdade, sendo associados a um departamento específico.
+* Curso: Contém os cursos oferecidos pela faculdade, sendo associados a um departamento específico.
 
-• Professor: Representa os docentes da instituição, que pertencem a um departamento e lecionam disciplinas.
+* Professor: Representa os docentes da instituição, que pertencem a um departamento e lecionam disciplinas.
 
-• Disciplina: Representa as matérias lecionadas nos cursos, podendo ter pré-requisitos e estar vinculadas a um departamento.
+* Disciplina: Representa as matérias lecionadas nos cursos, podendo ter pré-requisitos e estar vinculadas a um departamento.
 
-• Departamento: Administração acadêmica responsável pelos cursos e disciplinas.
+* Departamento: Administração acadêmica responsável pelos cursos e disciplinas.
 
 ![Modelo Conceitual](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloConceitual.png)
 
@@ -103,16 +103,16 @@ O diagrama lógico refina o modelo conceitual, detalhando a estrutura do banco d
 
 A modelagem lógica seguiu as melhores práticas de banco de dados, garantindo:
 
-• Integridade referencial, com a definição de chaves estrangeiras conectando tabelas inter-relacionadas.
+* Integridade referencial, com a definição de chaves estrangeiras conectando tabelas inter-relacionadas.
 
-• Eliminação de redundâncias, aplicando a normalização até a Terceira Forma Normal (3FN) para garantir a eficiência no armazenamento e minimizar inconsistências.
+* Eliminação de redundâncias, aplicando a normalização até a Terceira Forma Normal (3FN) para garantir a eficiência no armazenamento e minimizar inconsistências.
 
 * Relacionamentos N:N (Muitos para Muitos) representados por tabelas associativas, como:
 
-    * Aluno_Disciplina: Relaciona os alunos às disciplinas cursadas.
-    * Professor_Disciplina: Relaciona os professores às disciplinas que lecionam.
-    * Curso_Disciplina: Mapeia as disciplinas pertencentes a cada curso.
-    * Disciplina_Historico: Associa as disciplinas ao histórico escolar dos alunos.
+    * **Aluno_Disciplina:** Relaciona os alunos às disciplinas cursadas.
+    * **Professor_Disciplina:** Relaciona os professores às disciplinas que lecionam.
+    * **Curso_Disciplina:** Mapeia as disciplinas pertencentes a cada curso.
+    * **Disciplina_Historico:** Associa as disciplinas ao histórico escolar dos alunos.
 
 ![Modelo Lógico](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloL%C3%B3gico.png)
 
