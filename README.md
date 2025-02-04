@@ -75,14 +75,20 @@ Essas normalizações contribuem para a eliminação de redundâncias e a melhor
 
 # Modelagem
 
-Nesta seção, apresentamos os diagramas Entidade-Relacionamento (ER) do banco de dados, começando pelo modelo conceitual e avançando para o modelo lógico. O modelo conceitual foca na estrutura geral do banco, destacando entidades e seus relacionamentos, enquanto o modelo lógico detalha os atributos, chaves primárias e estrangeiras, refinando a modelagem para a implementação do banco de dados.
-
-
+Nesta seção, apresentamos a modelagem dos diagramas Entidade-Relacionamento (ER) do banco de dados, começando pelo modelo conceitual e avançando para o modelo lógico. O modelo conceitual foca na estrutura geral do banco, destacando entidades e seus relacionamentos, enquanto o modelo lógico detalha os atributos, chaves primárias e estrangeiras, refinando a modelagem para a implementação do banco de dados.
 
 ## Diagramas Entidade Relacionamento (ER)
-Nesta seção, apresentamos os diagramas Entidade-Relacionamento (ER) do banco de dados, começando pelo modelo conceitual e avançando para o modelo lógico. O modelo conceitual foca na estrutura geral do banco, destacando entidades e seus relacionamentos, enquanto o modelo lógico detalha os atributos, chaves primárias e estrangeiras, refinando a modelagem para a implementação do banco de dados.
 
 ### Diagrama Conceitual
+O diagrama conceitual representa uma visão de alto nível da estrutura do banco de dados, destacando as principais entidades e seus relacionamentos, sem detalhar atributos específicos. Este modelo serve para mapear os principais conceitos e suas conexões, facilitando o entendimento da estrutura do banco antes da implementação técnica.
+
+O banco de dados foi modelado para armazenar e gerenciar informações acadêmicas de uma faculdade, abrangendo o cadastro de alunos, professores, cursos, disciplinas, turmas, departamentos e histórico escolar. Entre as principais entidades do modelo conceitual, destacam-se:
+
+• Aluno: Representa os estudantes matriculados na instituição. Cada aluno pode estar vinculado a uma turma e a um curso.
+• Curso: Contém os cursos oferecidos pela faculdade, sendo associados a um departamento específico.
+• Professor: Representa os docentes da instituição, que pertencem a um departamento e lecionam disciplinas.
+• Disciplina: Representa as matérias lecionadas nos cursos, podendo ter pré-requisitos e estar vinculadas a um departamento.
+• Departamento: Administração acadêmica responsável pelos cursos e disciplinas.
 
 ![Modelo Conceitual](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloConceitual.png)
 
