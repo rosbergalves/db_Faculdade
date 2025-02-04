@@ -85,9 +85,13 @@ O diagrama conceitual representa uma visão de alto nível da estrutura do banco
 O banco de dados foi modelado para armazenar e gerenciar informações acadêmicas de uma faculdade, abrangendo o cadastro de alunos, professores, cursos, disciplinas, turmas, departamentos e histórico escolar. Entre as principais entidades do modelo conceitual, destacam-se:
 
 • Aluno: Representa os estudantes matriculados na instituição. Cada aluno pode estar vinculado a uma turma e a um curso.
+
 • Curso: Contém os cursos oferecidos pela faculdade, sendo associados a um departamento específico.
+
 • Professor: Representa os docentes da instituição, que pertencem a um departamento e lecionam disciplinas.
+
 • Disciplina: Representa as matérias lecionadas nos cursos, podendo ter pré-requisitos e estar vinculadas a um departamento.
+
 • Departamento: Administração acadêmica responsável pelos cursos e disciplinas.
 
 ![Modelo Conceitual](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloConceitual.png)
