@@ -37,6 +37,13 @@ Este banco de dados foi desenvolvido com o propósito de fornecer uma base estru
 * Cada professor é vinculado a um departamento.
 * Professores são identificados por um código de professor.
 
+# Ferramentas e Tecnologias Utilizadas
+
+* **SGBD:** *SQL Server - Utilizado para criar e gerenciar o banco de dados, além de executar consultas SQL para manipulação e análise dos dados.* 
+* **Linguagem de Consulta:** *SQL - linguagem de consulta usada para gerenciar e manipular bancos de dados relacionais, ela é especializada na interação com o banco de dados.*
+* **Modelagem:** *BRModelo - Utilizado para modelagem do banco de dados e criação de diagramas de entidade-relacionamento (ER).*
+* **Dicionário de Dados:** *Excel - Software usado para criação do dicionário de dados.*
+
 # Modelagem
 
 Nesta seção, apresentamos a modelagem dos diagramas Entidade-Relacionamento (ER) do banco de dados, começando pelo modelo conceitual e avançando para o modelo lógico. O modelo conceitual foca na estrutura geral do banco, destacando entidades e seus relacionamentos, enquanto o modelo lógico detalha os atributos, chaves primárias e estrangeiras, refinando a modelagem para a implementação do banco de dados.
