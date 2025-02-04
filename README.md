@@ -241,10 +241,14 @@ Essas normalizações contribuem para a eliminação de redundâncias e a melhor
 
 # Script de Criação do Banco db_Faculdade
 
+´´´
 /* db_Faculdade */
+```
 
+´´´
 --Criando o Banco
 CREATE DATABASE db_Faculdade;
+´´´
 
 --Conectando ao Banco
 USE db_Faculdade;
