@@ -43,6 +43,7 @@ Este banco de dados foi desenvolvido com o propósito de fornecer uma base estru
 * **Linguagem de Consulta:** SQL - linguagem de consulta usada para gerenciar e manipular bancos de dados relacionais, ela é especializada na interação com o banco de dados.
 * **Modelagem:** BRModelo - Utilizado para modelagem do banco de dados e criação de diagramas de entidade-relacionamento (ER).
 * **Dicionário de Dados:** Excel - Software usado para criação do dicionário de dados.
+* **Readme:** Visual Studio Code - Utilizado para edição do arquivo Readme.
 
 # Modelagem
 
