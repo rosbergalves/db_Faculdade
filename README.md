@@ -109,10 +109,10 @@ A modelagem lógica seguiu as melhores práticas de banco de dados, garantindo:
 
 • Relacionamentos N:N (Muitos para Muitos) representados por tabelas associativas, como:
 
-Aluno_Disciplina: Relaciona os alunos às disciplinas cursadas.
-Professor_Disciplina: Relaciona os professores às disciplinas que lecionam.
-Curso_Disciplina: Mapeia as disciplinas pertencentes a cada curso.
-Disciplina_Historico: Associa as disciplinas ao histórico escolar dos alunos.
+    * Aluno_Disciplina: Relaciona os alunos às disciplinas cursadas.
+    * Professor_Disciplina: Relaciona os professores às disciplinas que lecionam.
+    * Curso_Disciplina: Mapeia as disciplinas pertencentes a cada curso.
+    * Disciplina_Historico: Associa as disciplinas ao histórico escolar dos alunos.
 
 ![Modelo Lógico](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloL%C3%B3gico.png)
 
