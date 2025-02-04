@@ -426,17 +426,9 @@ Para validar o modelo de dados, foram realizadas consultas que demonstram:
 * O correto armazenamento e recuperação das informações.
 * A extração de dados relevantes para fins acadêmicos e administrativos.
 
-```sql
-SELECT RA, Nome_Aluno AS Nome, Sobrenome_Aluno AS Sobrenome, Nome_Curso AS Curso, Periodo
-FROM Aluno
-INNER JOIN Curso
-ON Aluno.Cod_Curso = Curso.Cod_Curso
-INNER JOIN Turma
-ON Aluno.Cod_Turma = Turma.Cod_Turma;
-```
-
 ![](https://github.com/rosbergalves/db_Faculdade/blob/main/Funcionamento%20db_Faculdade/select_01.png)
 ✅**Resultado da Consulta:** Essa consulta confirma que os alunos estão corretamente vinculados aos cursos e às turmas, as relações entre as tabelas Aluno, Curso e Turma estão funcionando corretamente e os alunos possuem informações de curso e período corretamente associadas.
 #
 
-```sql
+![](https://github.com/rosbergalves/db_Faculdade/blob/main/Funcionamento%20db_Faculdade/select_02.png)
+✅**Resultado da Consulta:** Essa consulta retorna que o aluno com RA = 3 tem registros de disciplinas cursadas e notas associadas, a integridade referencial entre os históricos e as disciplinas está correta e O relacionamento entre Aluno_Disciplina e Disciplina_Historico está bem definido.
