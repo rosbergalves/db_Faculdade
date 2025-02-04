@@ -424,7 +424,7 @@ Para validar o modelo de dados, foram realizadas consultas que demonstram:
 
 * A integridade das relações entre as tabelas.
 * O correto armazenamento e recuperação das informações.
-* A extração de dados relevantes para fins acadêmicos e administrativos.
+* A extração de dados relevantes para fins acadêmicos e administrativos como pode ser observado nas imagens abaixo.
 
 ![](https://github.com/rosbergalves/db_Faculdade/blob/main/Funcionamento%20db_Faculdade/select_01.png)
 ✅**Resultado da Consulta:** Essa consulta confirma que os alunos estão corretamente vinculados aos cursos e às turmas, as relações entre as tabelas Aluno, Curso e Turma estão funcionando corretamente e os alunos possuem informações de curso e período corretamente associadas.
@@ -436,6 +436,7 @@ Para validar o modelo de dados, foram realizadas consultas que demonstram:
 
 ![](https://github.com/rosbergalves/db_Faculdade/blob/main/Funcionamento%20db_Faculdade/select_03.png)
 ✅**Resultado da Consulta:** A consulta realiza uma junção (INNER JOIN) entre três tabelas: Professor, Professor_Disciplina e Disciplina, o que confirma que o relacionamento entre essas tabelas está corretamente implementado, associando os professores às disciplinas que lecionam.
+#
 
 ![](https://github.com/rosbergalves/db_Faculdade/blob/main/Funcionamento%20db_Faculdade/select_04.png)
 ✅**Resultado da Consulta:** A consulta confirma a integração entre múltiplas tabelas, Aluno, Telefone_Aluno, Tipo_Telefone, Endereco_Aluno e Tipo_Logradouro.
