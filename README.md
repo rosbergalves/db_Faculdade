@@ -249,4 +249,3 @@ CREATE TABLE UF (
 	Nome_Estado VARCHAR(50) NOT NULL,
 	Sigla CHAR(2) NOT NULL
 );
-´´´
