@@ -39,7 +39,7 @@ Este banco de dados foi desenvolvido com o propósito de fornecer uma base estru
 
 # Ferramentas e Tecnologias Utilizadas
 
-![SQL Server](https://github.com/rosbergalves/db_Faculdade/blob/main/Imagens/sql-server32.png) **SGBD:** SQL Server - Utilizado para criar e gerenciar o banco de dados, além de executar consultas SQL para manipulação e análise dos dados.
+* **SGBD:** SQL Server - Utilizado para criar e gerenciar o banco de dados, além de executar consultas SQL para manipulação e análise dos dados.
 * **Linguagem de Consulta:** SQL - linguagem de consulta usada para gerenciar e manipular bancos de dados relacionais, ela é especializada na interação com o banco de dados.
 * **Modelagem:** BRModelo - Utilizado para modelagem do banco de dados e criação de diagramas de entidade-relacionamento (ER).
 * **Dicionário de Dados:** Excel - Software usado para criação do dicionário de dados.
