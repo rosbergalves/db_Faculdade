@@ -1,6 +1,6 @@
 # Banco de Dados - db_Faculdade
 
-## Objetivo do Banco de Dados
+### Objetivo do Banco de Dados
 O objetivo é criar um banco de dados para gerenciar informações acadêmicas de alunos, professores, cursos, disciplinas, departamentos históricos, turmas, endereços etc.
 
 
