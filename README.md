@@ -435,4 +435,8 @@ INNER JOIN Turma
 ON Aluno.Cod_Turma = Turma.Cod_Turma;
 ```
 
+![](https://github.com/rosbergalves/db_Faculdade/blob/main/Funcionamento%20db_Faculdade/select_01.png)
 ✅**Resultado da Consulta:** Essa consulta confirma que os alunos estão corretamente vinculados aos cursos e às turmas, as relações entre as tabelas Aluno, Curso e Turma estão funcionando corretamente e os alunos possuem informações de curso e período corretamente associadas.
+#
+
+```sql
