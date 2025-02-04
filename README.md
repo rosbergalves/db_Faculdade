@@ -94,6 +94,7 @@ O banco de dados foi modelado para armazenar e gerenciar informações acadêmic
 
 • Departamento: Administração acadêmica responsável pelos cursos e disciplinas.
 
+
 ![Modelo Conceitual](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloConceitual.png)
 
 ### Modelo Lógico
