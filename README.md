@@ -2,7 +2,7 @@
 
 ### Objetivo do Banco de Dados
 
-Este banco de dados foi desenvolvido com o propósito de fornecer uma base estruturada para a realização de testes de inserção de dados. Ele permite simular operações de entrada de informações em diferentes tabelas, possibilitando a validação de regras de integridade, desempenho de consultas e otimização de comandos SQL. Essa estrutura auxilia no aprimoramento e ajuste de procedimentos de manipulação de dados antes da aplicação em ambientes produtivos.
+Este banco de dados foi desenvolvido com o propósito de fornecer uma base estruturada para a realização de testes de inserção de dados. Ele permite simular operações de inserção de registros em diferentes tabelas, possibilitando a validação de regras de integridade, desempenho de consultas e otimização de comandos SQL. Essa estrutura auxilia no aprimoramento e ajuste de procedimentos de manipulação de dados antes da aplicação em ambientes produtivos.
 
 # Fases do Projeto 
 
@@ -71,7 +71,7 @@ Nesta seção, apresentamos a modelagem dos diagramas Entidade-Relacionamento (E
 ### Diagrama Conceitual
 O diagrama conceitual representa uma visão de alto nível da estrutura do banco de dados, destacando as principais entidades e seus relacionamentos, sem detalhar atributos específicos. Este modelo serve para mapear os principais conceitos e suas conexões, facilitando o entendimento da estrutura do banco antes da implementação técnica.
 
-O banco de dados foi modelado para armazenar e gerenciar informações acadêmicas de uma faculdade, abrangendo o cadastro de alunos, professores, cursos, disciplinas, turmas, departamentos e histórico escolar. Entre as principais entidades do modelo conceitual, destacam-se:
+O banco de dados foi modelado para armazenar e gerenciar informações acadêmicas de uma faculdade, abrangendo o cadastro de alunos, professores, cursos, disciplinas, turmas, departamentos e histórico escolar. Entre as principais entidades, destacam-se:
 
 * **Aluno:** Representa os estudantes matriculados na instituição. Cada aluno pode estar vinculado a uma turma e a um curso.
 
@@ -101,7 +101,7 @@ A modelagem lógica seguiu as melhores práticas de banco de dados, garantindo:
     * **Aluno_Disciplina:** Relaciona os alunos às disciplinas cursadas.
     * **Professor_Disciplina:** Relaciona os professores às disciplinas que lecionam.
     * **Curso_Disciplina:** Mapeia as disciplinas pertencentes a cada curso.
-    * **Disciplina_Historico:** Associa as disciplinas ao histórico escolar dos alunos.
+    * **Disciplina_Historico:** Associa as disciplinas ao histórico dos alunos.
 
 ![Modelo Lógico](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloL%C3%B3gico.png)
 
