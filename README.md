@@ -30,7 +30,7 @@ Este banco de dados foi desenvolvido com o propósito de fornecer uma base estru
 * A faculdade terá no máximo 3.000 alunos matriculados simultaneamente, em 10 cursos distintos.
 * Entram 300 alunos novos por ano.
 * Existem 90 disciplinas no total disponíveis.
-* Um histórico traz todas as disciplinas cursadas por um aluno, incluindo nota final, frequência e período do curso realizado.
+* Um histórico traz as disciplinas cursadas por um aluno, incluindo nota final, frequência e período do curso.
 * Professores podem ser cadastrados mesmo sem lecionar disciplinas.
 * Existem 40 professores trabalhando na faculdade.
 * Cada professor irá lecionar no máximo 4 disciplinas diferentes.
@@ -39,10 +39,10 @@ Este banco de dados foi desenvolvido com o propósito de fornecer uma base estru
 
 # Ferramentas e Tecnologias Utilizadas
 
-* **SGBD:** *SQL Server - Utilizado para criar e gerenciar o banco de dados, além de executar consultas SQL para manipulação e análise dos dados.* 
-* **Linguagem de Consulta:** *SQL - linguagem de consulta usada para gerenciar e manipular bancos de dados relacionais, ela é especializada na interação com o banco de dados.*
-* **Modelagem:** *BRModelo - Utilizado para modelagem do banco de dados e criação de diagramas de entidade-relacionamento (ER).*
-* **Dicionário de Dados:** *Excel - Software usado para criação do dicionário de dados.*
+* **SGBD:** SQL Server - Utilizado para criar e gerenciar o banco de dados, além de executar consultas SQL para manipulação e análise dos dados.
+* **Linguagem de Consulta:** SQL - linguagem de consulta usada para gerenciar e manipular bancos de dados relacionais, ela é especializada na interação com o banco de dados.
+* **Modelagem:** BRModelo - Utilizado para modelagem do banco de dados e criação de diagramas de entidade-relacionamento (ER).
+* **Dicionário de Dados:** Excel - Software usado para criação do dicionário de dados.
 
 # Modelagem
 
