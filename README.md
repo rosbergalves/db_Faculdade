@@ -239,7 +239,7 @@ Essas normalizações contribuem para a eliminação de redundâncias e a melhor
 
 ![Atributos Tipo_Telefone](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_tipo_telefone.png)
 
-# Script de Criação do Banco db_Faculdade
+# Script de Criação do Banco de Dados
 
 ```sql
 --Criando o Banco
@@ -414,3 +414,25 @@ CREATE TABLE Endereco_Aluno (
 	CONSTRAINT fk_Cod_Cidade FOREIGN KEY (Cod_Cidade) REFERENCES Cidade (Cod_Cidade),
 	CONSTRAINT fk_Cod_UF FOREIGN KEY (Cod_UF) REFERENCES UF (Cod_UF)
 );
+```
+
+# Demonstração do Funcionamento do Banco de Dados
+
+Aqui podemos acompanhar o funcionamento do banco de dados através de consultas SQL e seus respectivos resultados. As capturas de tela ilustram a interação com o banco, demonstrando a integridade dos dados e a eficácia das relações estabelecidas entre as tabelas.
+
+Para validar o modelo de dados, foram realizadas consultas que demonstram:
+
+* A integridade das relações entre as tabelas.
+* O correto armazenamento e recuperação das informações.
+* A extração de dados relevantes para fins acadêmicos e administrativos.
+
+```sql
+SELECT RA, Nome_Aluno AS Nome, Sobrenome_Aluno AS Sobrenome, Nome_Curso AS Curso, Periodo
+FROM Aluno
+INNER JOIN Curso
+ON Aluno.Cod_Curso = Curso.Cod_Curso
+INNER JOIN Turma
+ON Aluno.Cod_Turma = Turma.Cod_Turma;
+```
+
+✅**Resultado da Consulta:** Essa consulta confirma que os alunos estão corretamente vinculados aos cursos e às turmas, as relações entre as tabelas Aluno, Curso e Turma estão funcionando corretamente e os alunos possuem informações de curso e período corretamente associadas.
