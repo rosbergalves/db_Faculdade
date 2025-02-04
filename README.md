@@ -432,3 +432,10 @@ Para validar o modelo de dados, foram realizadas consultas que demonstram:
 
 ![](https://github.com/rosbergalves/db_Faculdade/blob/main/Funcionamento%20db_Faculdade/select_02.png)
 ✅**Resultado da Consulta:** Essa consulta retorna que o aluno com RA = 3 tem registros de disciplinas cursadas e notas associadas, a integridade referencial entre os históricos e as disciplinas está correta e O relacionamento entre Aluno_Disciplina e Disciplina_Historico está bem definido.
+#
+
+![](https://github.com/rosbergalves/db_Faculdade/blob/main/Funcionamento%20db_Faculdade/select_03.png)
+✅**Resultado da Consulta:** A consulta realiza uma junção (INNER JOIN) entre três tabelas: Professor, Professor_Disciplina e Disciplina, o que confirma que o relacionamento entre essas tabelas está corretamente implementado, associando os professores às disciplinas que lecionam.
+
+![](https://github.com/rosbergalves/db_Faculdade/blob/main/Funcionamento%20db_Faculdade/select_04.png)
+✅**Resultado da Consulta:** A consulta confirma a integração entre múltiplas tabelas, Aluno, Telefone_Aluno, Tipo_Telefone, Endereco_Aluno e Tipo_Logradouro.
