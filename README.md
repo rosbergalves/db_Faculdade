@@ -7,19 +7,12 @@ Este banco de dados foi desenvolvido com o propósito de fornecer uma base estru
 # Fases do Projeto 
 
 * Levantamento de Requisitos.
-
 * Identificação de Entidades e Relacionamentos.
-
 * Modelo E-R.
-
 * Diagrama E-R.
-
 * Dicionário de Dados.
-
 * Normalização na 1ª, 2ª e 3ª formas normais.
-
 * Implementação do banco ‘db_Faculdade’.
-
 * Testes Básicos.
 
 # Regras de Negócio
