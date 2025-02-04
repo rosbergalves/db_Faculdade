@@ -242,6 +242,14 @@ Essas normalizações contribuem para a eliminação de redundâncias e a melhor
 # Script de Criação do Banco db_Faculdade
 
 ```sql
+--Criando o Banco
+CREATE DATABASE db_Faculdade;
+
+
+--Conectando ao Banco
+USE db_Faculdade;
+
+
 --Tabela para cadastro de unidades federativas
 CREATE TABLE UF (
 	Cod_UF INT PRIMARY KEY IDENTITY,
