@@ -241,9 +241,8 @@ Essas normalizações contribuem para a eliminação de redundâncias e a melhor
 
 # Script de Criação do Banco db_Faculdade
 
-´´´
+
 /* db_Faculdade */
-```
 
 ´´´
 --Criando o Banco
