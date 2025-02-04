@@ -75,9 +75,14 @@ Essas normalizações contribuem para a eliminação de redundâncias e a melhor
 
 # Modelagem
 
-## Diagrama Entidade Relacionamento
+Nesta seção, apresentamos os diagramas Entidade-Relacionamento (ER) do banco de dados, começando pelo modelo conceitual e avançando para o modelo lógico. O modelo conceitual foca na estrutura geral do banco, destacando entidades e seus relacionamentos, enquanto o modelo lógico detalha os atributos, chaves primárias e estrangeiras, refinando a modelagem para a implementação do banco de dados.
 
-### Modelo Conceitual
+
+
+## Diagramas Entidade Relacionamento (ER)
+Nesta seção, apresentamos os diagramas Entidade-Relacionamento (ER) do banco de dados, começando pelo modelo conceitual e avançando para o modelo lógico. O modelo conceitual foca na estrutura geral do banco, destacando entidades e seus relacionamentos, enquanto o modelo lógico detalha os atributos, chaves primárias e estrangeiras, refinando a modelagem para a implementação do banco de dados.
+
+### Diagrama Conceitual
 
 ![Modelo Conceitual](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloConceitual.png)
 
