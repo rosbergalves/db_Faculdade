@@ -98,7 +98,23 @@ O banco de dados foi modelado para armazenar e gerenciar informações acadêmic
 
 ![Modelo Conceitual](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloConceitual.png)
 
-### Modelo Lógico
+### Diagrama Lógico
+O diagrama lógico refina o modelo conceitual, detalhando a estrutura do banco de dados com a inclusão de atributos, chaves primárias, chaves estrangeiras e tabelas associativas para normalizar os relacionamentos.
+
+A modelagem lógica seguiu as melhores práticas de banco de dados, garantindo:
+
+• Integridade referencial, com a definição de chaves estrangeiras conectando tabelas inter-relacionadas.
+
+• Eliminação de redundâncias, aplicando a normalização até a Terceira Forma Normal (3FN) para garantir a eficiência no armazenamento e minimizar inconsistências.
+
+• Relacionamentos N:N (Muitos para Muitos) representados por tabelas associativas, como:
+
+Aluno_Disciplina: Relaciona os alunos às disciplinas cursadas.
+Professor_Disciplina: Relaciona os professores às disciplinas que lecionam.
+Curso_Disciplina: Mapeia as disciplinas pertencentes a cada curso.
+Disciplina_Historico: Associa as disciplinas ao histórico escolar dos alunos.
+
+#
 
 ![Modelo Lógico](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloL%C3%B3gico.png)
 
