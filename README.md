@@ -249,7 +249,7 @@ CREATE TABLE UF (
 	Sigla CHAR(2) NOT NULL
 );
 
-```sql
+
 --Tabela para cadastro de cidades
 CREATE TABLE Cidade (
 	Cod_Cidade INT PRIMARY KEY IDENTITY,
@@ -258,14 +258,14 @@ CREATE TABLE Cidade (
 	CONSTRAINT fk_uf_cidade FOREIGN KEY (Cod_UF) REFERENCES UF (Cod_UF)
 );
 
-```sql
+
 --Tabela para cadastro dos departamentos da faculdade
 CREATE TABLE Departamento (
 	Cod_Departamento INT PRIMARY KEY IDENTITY,
 	Nome_Departamento VARCHAR(100) NOT NULL
 );
 
-```sql
+
 --Tabela para cadastro dos professores da faculdade
 CREATE TABLE Professor (
 	Cod_Professor INT PRIMARY KEY IDENTITY,
@@ -276,7 +276,7 @@ CREATE TABLE Professor (
 	CONSTRAINT fk_departamento_professor FOREIGN KEY (Cod_Departamento) REFERENCES Departamento (Cod_Departamento)
 );
 
-```sql
+
 --Tabela para cadastro dos cursos oferecidos pela faculdade
 CREATE TABLE Curso (
 	Cod_Curso INT PRIMARY KEY IDENTITY,
@@ -285,7 +285,7 @@ CREATE TABLE Curso (
 	CONSTRAINT fk_departamento_curso FOREIGN KEY (Cod_Departamento) REFERENCES Departamento (Cod_Departamento)
 );
 
-```sql
+
 --Tabela para cadastro das turmas da faculdade
 CREATE TABLE Turma (
 	Cod_Turma INT PRIMARY KEY IDENTITY,
@@ -297,7 +297,7 @@ CREATE TABLE Turma (
 	CONSTRAINT fk_curso_turma FOREIGN KEY (Cod_Curso) REFERENCES Curso (Cod_Curso)
 );
 
-```sql
+
 --Tabela para cadastro das disciplinas cursadas na faculdade
 CREATE TABLE Disciplina (
 	Cod_Disciplina INT PRIMARY KEY IDENTITY,
@@ -311,7 +311,7 @@ CREATE TABLE Disciplina (
 	CONSTRAINT fk_disciplinadepende_disciplina FOREIGN KEY (Cod_Disciplina_Depende) REFERENCES Disciplina (Cod_Disciplina)
 );
 
-```sql
+
 --Tabela aasociativa entre as tabelas Professor e Disciplina 
 CREATE TABLE Professor_Disciplina (
 	Cod_Professor INT NOT NULL,
@@ -321,7 +321,7 @@ CREATE TABLE Professor_Disciplina (
 	CONSTRAINT fk_disciplina_professordisciplina FOREIGN KEY (Cod_Disciplina) REFERENCES Disciplina (Cod_Disciplina)
 );
 
-```sql
+
 --Tabela associativa entre as tabelas Curso e Disciplina
 CREATE TABLE Curso_Disciplina (
 	Cod_Curso INT NOT NULL,
@@ -331,7 +331,7 @@ CREATE TABLE Curso_Disciplina (
 	CONSTRAINT fk_disciplina_cursodisciplina FOREIGN KEY (Cod_Disciplina) REFERENCES Disciplina (Cod_Disciplina)
 );
 
-```sql
+
 --Tabela para cadastro dos alunos da faculdade
 CREATE TABLE Aluno (
 	RA INT PRIMARY KEY IDENTITY,
@@ -350,7 +350,7 @@ CREATE TABLE Aluno (
 	CONSTRAINT fk_curso_aluno FOREIGN KEY (Cod_Curso) REFERENCES Curso (Cod_Curso)
 );
 
-```sql
+
 --Tabela associativa entre as tabelas Aluno e Disciplina
 CREATE TABLE Aluno_Disciplina (
 	RA INT NOT NULL,
@@ -360,7 +360,7 @@ CREATE TABLE Aluno_Disciplina (
 	CONSTRAINT fk_disciplina_alunodisciplina FOREIGN KEY (Cod_Disciplina) REFERENCES Disciplina (Cod_Disciplina)
 );
 
-```sql
+
 --Tabela para cadastro do histórico dos alunos da faculdade
 CREATE TABLE Historico (
 	Cod_Historico INT PRIMARY KEY IDENTITY,
@@ -370,7 +370,7 @@ CREATE TABLE Historico (
 	CONSTRAINT fk_aluno_historico FOREIGN KEY (RA) REFERENCES Aluno (RA)
 );
 
-```sql
+
 --Tabela associativa entre as tabelas Disciplina e Histórico
 CREATE TABLE Disciplina_Historico (
 	Cod_Historico INT NOT NULL,
@@ -382,14 +382,14 @@ CREATE TABLE Disciplina_Historico (
 	CONSTRAINT fk_disciplina_disciplinahistorico FOREIGN KEY (Cod_Disciplina) REFERENCES Disciplina (Cod_Disciplina)
 );
 
-```sql
+
 --Tabela para cadstro do tipo de telefone dos alunos da faculdade
 CREATE TABLE Tipo_Telefone (
 	Cod_Tipo_Telefone INT PRIMARY KEY IDENTITY,
 	Tipo_Telefone VARCHAR(8) NOT NULL
 );
 
-```sql
+
 --Tabela para cadastro dos números de telefone dos alunos da faculdade
 CREATE TABLE Telefone_Aluno (
 	Cod_Telefone_Aluno INT PRIMARY KEY IDENTITY,
@@ -400,14 +400,14 @@ CREATE TABLE Telefone_Aluno (
 	CONSTRAINT fk_tipotelefone_telefonealuno FOREIGN KEY (Cod_Tipo_Telefone) REFERENCES Tipo_Telefone (Cod_Tipo_Telefone)
 );
 
-```sql
+
 --Tabela para cadastro do tipo de logradouro do endereço dos alunos da faculdade
 CREATE TABLE Tipo_Logradouro (
 	Cod_Tipo_Logradouro INT PRIMARY KEY IDENTITY,
 	Tipo_Logradouro VARCHAR(11) NOT NULL
 );
 
-```sql
+
 --Tabela para cadastro dos endereços dos alunos da faculdade
 CREATE TABLE Endereco_Aluno (
 	Cod_Endereco_Aluno INT PRIMARY KEY IDENTITY,
