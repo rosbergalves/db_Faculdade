@@ -66,8 +66,9 @@ VALUES
 
 ```
 
-![Modelo Conceitual](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloConceitual.png)
+![Tabela Aluno](https://github.com/rosbergalves/db_Faculdade/blob/main/Funcionamento%20db_Faculdade/select_08.png)
 
+#
 
 # Ferramentas e Tecnologias Utilizadas
 
