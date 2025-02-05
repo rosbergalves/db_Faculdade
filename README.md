@@ -2,7 +2,7 @@
 
 ### Objetivo do Banco de Dados
 
-Este banco de dados foi desenvolvido com o propósito de fornecer uma base estruturada para a realização de testes de inserção de dados. Ele permite simular operações de inserção de registros em diferentes tabelas, possibilitando a validação de regras de integridade, desempenho de consultas e otimização de comandos SQL. Essa estrutura auxilia no aprimoramento e ajuste de procedimentos de manipulação de dados antes da aplicação em ambientes produtivos.
+Este banco de dados foi desenvolvido durante o curso de SQL Server promovido pelo professor **Fábio dos Reis** da **Bóson Treinamentos** com o propósito de fornecer uma base estruturada para a realização de testes de inserção de dados. Ele permite simular operações de inserção de registros em diferentes tabelas, possibilitando a validação de regras de integridade, desempenho de consultas e otimização de comandos SQL. Essa estrutura auxilia no aprimoramento e ajuste de procedimentos de manipulação de dados antes da aplicação em ambientes produtivos.
 
 # Fases do Projeto 
 
