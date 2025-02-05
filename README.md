@@ -282,6 +282,8 @@ Essas normalizações contribuem para a eliminação de redundâncias e a melhor
 
 ![Atributos Tipo_Telefone](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Atributos/atributos_tbl_tipo_telefone.png)
 
+#
+
 # Script de Criação do Banco de Dados
 
 ```sql
