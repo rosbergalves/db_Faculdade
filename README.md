@@ -131,7 +131,7 @@ Essas normalizações contribuem para a eliminação de redundâncias e a melhor
 
 ![Entidade Departamento](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Entidades/entidate_tbl_departamento.png)
 
-### Entidade Historico
+### Entidade Histórico
 
 ![Entidade Historico](https://github.com/rosbergalves/db_Faculdade/blob/main/Dicion%C3%A1rio%20de%20Dados/Entidades/entidate_tbl_hist%C3%B3rico.png)
 
