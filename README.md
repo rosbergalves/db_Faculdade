@@ -37,6 +37,38 @@ Este banco de dados foi desenvolvido com o propósito de fornecer uma base estru
 * Cada professor é vinculado a um departamento.
 * Professores são identificados por um código de professor.
 
+#
+
+# Geração de Dados para Testes
+
+Para validar a estrutura e o funcionamento do banco de dados, utilizei dados cedidos durante o curso de SQL Server da Bóson Treinamentos e dados fictícios gerados por IA generativa. O objetivo era simular um ambiente realista, garantindo que as tabelas e os relacionamentos fossem testados corretamente. Os dados foram gerados utilizando [ChatGPT] onde os nomes dos alunos, nomes dos professores, e-mail, cpf, nome da mãe, nome do pai, endereços, whatsapp, números de telefone etc. Os dados passaram por verificações para evitar erros manter a integridade e coerência esperadas dentro do contexto acadêmico.
+
+Confira um exemplo de script gerado através de IA generativa e os dados inseridos na tabela:
+
+```sql
+-- Inserindo dados na tabela Aluno
+INSERT INTO Aluno (Nome_Aluno, Sobrenome_Aluno, Status, CPF, Sexo, Nome_Mae, Nome_Pai, Email, Whatsapp, Cod_Turma, Cod_Curso)
+VALUES
+    ('Ronaldo', 'Nazário', '1', '14578914538', 'M', 'Sônia Nazário', 'Nélio Nazário', 'ronaldo.nazario@gmail.com', '981234568', 1, 2),
+    ('Rivaldo', 'Ferreira', '1', '14670954539', 'M', 'Marinalva Ferreira', 'Romildo Ferreira', 'rivaldo.ferreira@yahoo.com', '971741249', 2, 4),
+    ('Ronaldinho', 'Gaúcho', '1', '14709845340', 'M', 'Dona Miguelina', 'Seu João', 'ronaldinho.gaucho@hotmail.com', '985781413', 3, 5),
+    ('Cafu', 'Marques', '1', '14823651541', 'M', 'Maria Marques', 'Toninho Marques', 'cafu.marques@gmail.com', '965637858', 2, 6),
+    ('Roberto', 'Carlos', '1', '14968914542', 'M', 'Dona Vera', 'Antônio Carlos', 'roberto.carlos@hotmail.com', '974267424', 1, 3),
+    ('Zinédine', 'Zidane', '1', '15088914543', 'M', 'Malika Zidane', 'Smail Zidane', 'zidane.fernandes@outlook.com', '932619561', 3, 1),
+    ('Thierry', 'Henry', '1', '15178914544', 'M', 'Maryse Thierry', 'Antoine Thierry', 'henry.thierry@gmail.com', '951234569', 2, 5),
+    ('David', 'Beckham', '1', '15270954545', 'M', 'Sandra Beckham', 'Ted Beckham', 'beckham.david@yahoo.com', '961741250', 1, 4),
+    ('Francesco', 'Totti', '1', '15309845346', 'M', 'Fiorella Totti', 'Enzo Totti', 'totti.francesco@hotmail.com', '975781414', 3, 2),
+    ('Andriy', 'Shevchenko', '1', '15423651547', 'M', 'Lyubov Shevchenko', 'Mykola Shevchenko', 'shevchenko.andriy@gmail.com', '955637859', 2, 6),
+    ('Alessandro', 'Del Piero', '1', '15568914548', 'M', 'Bruna Del Piero', 'Gino Del Piero', 'delpiero.alessandro@hotmail.com', '984267425', 1, 3),
+    ('Raúl', 'González', '1', '15688914549', 'M', 'María González', 'Pedro González', 'raul.gonzalez@outlook.com', '942619562', 3, 5),
+    ('Luís', 'Figo', '1', '15778914550', 'M', 'Dona Antónia', 'Manuel Figo', 'figo.luis@gmail.com', '971234570', 2, 1),
+    ('Ricardo', 'Izecson', '1', '15870954551', 'M', 'Simone dos Santos', 'Bosco Leite', 'kaka.ricardo@yahoo.com', '981741251', 1, 4);
+
+```
+
+![Modelo Conceitual](https://github.com/rosbergalves/db_Faculdade/blob/main/Diagrama%20ER/DiagramaER_ModeloConceitual.png)
+
+
 # Ferramentas e Tecnologias Utilizadas
 
 * **SGBD:** SQL Server - Utilizado para criar e gerenciar o banco de dados, além de executar consultas SQL para manipulação e análise dos dados.
@@ -53,7 +85,7 @@ Nesta seção, apresentamos a modelagem dos diagramas Entidade-Relacionamento (E
 
 ## Diagramas Entidade Relacionamento (ER)
 
-### Diagrama Conceitual
+### Modelo Conceitual
 O diagrama conceitual representa uma visão de alto nível da estrutura do banco de dados, destacando as principais entidades e seus relacionamentos, sem detalhar atributos específicos. Este modelo serve para mapear os principais conceitos e suas conexões, facilitando o entendimento da estrutura do banco antes da implementação técnica.
 
 O banco de dados foi modelado para armazenar e gerenciar informações acadêmicas de uma faculdade, abrangendo o cadastro de alunos, professores, cursos, disciplinas, turmas, departamentos e histórico escolar. Entre as principais entidades, destacam-se:
@@ -72,7 +104,7 @@ O banco de dados foi modelado para armazenar e gerenciar informações acadêmic
 
 #
 
-### Diagrama Lógico
+### Modelo Lógico
 O diagrama lógico refina o modelo conceitual, detalhando a estrutura do banco de dados com a inclusão de atributos, chaves primárias, chaves estrangeiras e tabelas associativas para normalizar os relacionamentos.
 
 A modelagem lógica seguiu as melhores práticas de banco de dados, garantindo:
